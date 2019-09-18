@@ -7,9 +7,10 @@ services:
     links:
       - db
       - redis
-    ports:
-      - "127.0.0.1:3000:3000"
       - es
+    expose:
+      - 3000
+    container_name: "misskey_web"
     networks:
       - internal_network
       - external_network
@@ -48,3 +49,4 @@ networks:
   internal_network:
     internal: true
   external_network:
+    external: true
