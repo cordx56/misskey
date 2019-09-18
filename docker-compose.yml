@@ -10,7 +10,7 @@ services:
       - es
     expose:
       - 3000
-    container_name: "siskey"
+    container_name: "sisskey"
     networks:
       - internal_network
       - external_network
