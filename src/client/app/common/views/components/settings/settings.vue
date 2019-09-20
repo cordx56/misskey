@@ -87,10 +87,10 @@
 				<ui-radio v-model="deckColumnWidth" value="wider">{{ $t('@._settings.deck-column-width-wider') }}</ui-radio>
 				<ui-radio v-model="deckColumnWidth" value="wide">{{ $t('@._settings.deck-column-width-wide') }}</ui-radio>
 			</section>
-			<section>
+			<!--<section>
 				<ui-switch v-model="games_reversi_showBoardLabels">{{ $t('@._settings.show-reversi-board-labels') }}</ui-switch>
 				<ui-switch v-model="games_reversi_useAvatarStones">{{ $t('@._settings.use-avatar-reversi-stones') }}</ui-switch>
-			</section>
+			</section>-->
 		</ui-card>
 	</template>
 
@@ -160,7 +160,7 @@
 				</ui-switch>
 			</section>
 
-			<section>
+			<!--<section>
 				<header>{{ $t('@._settings.room') }}</header>
 				<ui-select v-model="roomGraphicsQuality">
 					<template #label>{{ $t('@._settings._room.graphicsQuality') }}</template>
@@ -171,7 +171,7 @@
 					<option value="cheep">{{ $t('@._settings._room._graphicsQuality.cheep') }}</option>
 				</ui-select>
 				<ui-switch v-model="roomUseOrthographicCamera">{{ $t('@._settings._room.useOrthographicCamera') }}</ui-switch>
-			</section>
+			</section>-->
 		</ui-card>
 
 		<ui-card>
